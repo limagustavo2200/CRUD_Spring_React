@@ -1,0 +1,48 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombras suaves para a tabela */
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #4CAF50; /* Cor verde suave para o cabeçalho */
+  color: white; /* Texto branco */
+  font-weight: bold;
+}
+
+.table tr {
+  background-color: #f2f2f2; /* Cor de fundo cinza claro para todas as linhas */
+}
+
+.table tr:hover {
+  background-color: #e0e0e0; /* Cor de fundo para hover (linha) */
+}
+
+.table td {
+  font-size: 14px;
+  color: #333; /* Cor do texto */
+}
+
+.table .available {
+  color: #28a745; /* Verde para produtos disponíveis */
+}
+
+.table .unavailable {
+  color: #dc3545; /* Vermelho para produtos indisponíveis */
+}
+
+.table .available, .table .unavailable {
+  font-weight: bold; /* Negrito para maior destaque */
+}
+
+.table th, .table td {
+  border-color: #ddd; /* Cor das bordas */
+  padding: 12px;
+}
