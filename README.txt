@@ -1,6 +1,6 @@
-# Case - Full Stack Application
+#  Full Stack Application
 
-Este projeto é uma aplicação **Full Stack** utilizando **Spring Boot** para o backend, **H2** como banco de dados e **React** para o frontend.
+Este projeto é uma aplicação **Full Stack** para cadastro e exibição de produtos, utilizando **Spring Boot** para o backend, **H2** como banco de dados e **React** para o frontend.
 
 ## Estrutura do Projeto
 
